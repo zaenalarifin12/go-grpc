@@ -23,5 +23,7 @@ func main() {
 	if c == nil {
 		log.Fatalf("Failed to create client")
 	}
-	doAvg(c)
+	//doAvg(c)
+	doMax(c)
+
 }
