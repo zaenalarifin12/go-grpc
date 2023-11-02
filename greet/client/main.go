@@ -26,5 +26,6 @@ func main() {
 		log.Fatalf("Failed to create client")
 	}
 	//doGreet(c)
-	doGreetManyTimes(c)
+	//doGreetManyTimes(c)
+	doLongGreet(c)
 }

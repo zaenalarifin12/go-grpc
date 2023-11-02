@@ -23,5 +23,5 @@ func main() {
 	if c == nil {
 		log.Fatalf("Failed to create client")
 	}
-	doPrimes(c)
+	doAvg(c)
 }
