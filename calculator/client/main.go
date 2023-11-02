@@ -24,6 +24,6 @@ func main() {
 		log.Fatalf("Failed to create client")
 	}
 	//doAvg(c)
-	doMax(c)
-
+	//doMax(c)
+	doSqrt(c, -10)
 }
